@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "FTFCU.MaskDatabase", "FTFCU.MaskDatabase\FTFCU.MaskDatabase.sqlproj", "{66B39DBB-6FBF-4043-8D36-5DC31D402153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FTFCU.DbDeploy", "FTFCU.DbDeploy\FTFCU.DbDeploy.csproj", "{84D88F51-9E74-4195-B887-57F27F033FB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66B39DBB-6FBF-4043-8D36-5DC31D402153}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{84D88F51-9E74-4195-B887-57F27F033FB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D88F51-9E74-4195-B887-57F27F033FB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D88F51-9E74-4195-B887-57F27F033FB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D88F51-9E74-4195-B887-57F27F033FB6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AFDCB505-F4A9-46A7-A0D6-FA541C43DF0B}
+	EndGlobalSection
+EndGlobal
