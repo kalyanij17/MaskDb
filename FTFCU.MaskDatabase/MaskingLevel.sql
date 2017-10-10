@@ -1,0 +1,11 @@
+﻿CREATE TABLE [MaskUnMask].[MaskingLevel](
+	[MaskingLevelId] INT  NOT NULL PRIMARY KEY IDENTITY(1,1),
+	[MaskingLevel] VARCHAR(10) NOT NULL,
+	[MaskedDataType] VARCHAR(50) NULL,
+	[IsActive] BIT NOT NULL DEFAULT 1,
+	[IsDeleted] BIT NOT NULL DEFAULT 0,
+	[CreatedDate] DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME (),
+	[CreatedBy] VARCHAR(50) NOT NULL,
+	[ModifiedDate] DATETIME2 NULL,
+	[ModifiedBy] DATETIME2 NULL,
+	)
