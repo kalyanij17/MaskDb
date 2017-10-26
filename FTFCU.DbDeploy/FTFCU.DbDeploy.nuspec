@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>MaskDatabase</id>
+    <version>1.0</version>
+    <title>mask database</title>
+    <authors>OctopusDeploy</authors>
+    <owners>OctopusDeploy</owners>
+    <licenseUrl>http://FtFCUDeploy.com</licenseUrl>
+    <projectUrl>http://FtFCUDeploy.com</projectUrl>
+    <iconUrl>http://FtFCUDeploy.com</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>mask database api</description>
+    <releaseNotes>Summary of changes made in this release of the package.</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Tag1 Tag2</tags>
+  </metadata>
+  <files>
+    <file src="bin\**" target="bin" exclude="bin\Debug\**" />
+   <!-- <file src="publish.xml" target="Content" />
+    <file src="Deploy.ps1" />
+     <file url1="https://docs.microsoft.com/en-us/nuget/quickstart/create-and-publish-a-package" />
+    -->
+  </files>
+ 
+</package>
+
