@@ -7,5 +7,5 @@
 	[CreatedDate] DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME (),
 	[CreatedBy] VARCHAR(50) NOT NULL,
 	[ModifiedDate] DATETIME2 NULL,
-	[ModifiedBy] DATETIME2 NULL,
+	[ModifiedBy] VARCHAR(50) NULL,
 	)

@@ -58,6 +58,9 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Schemas" />
+    <Folder Include="PrepopulatedData" />
+    <Folder Include="StoredProcedures" />
+    <Folder Include="Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Application.sql" />
@@ -67,6 +70,15 @@
     <None Include="Deploy.ps1">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="PrepopulatedData\SourceAttributeData.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="PrepopulatedData\ApplicationData.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Build Include="Functions\DatabaseScalarFunction1.sql" />
+    <Build Include="StoredProcedures\Mask.sql" />
+    <Build Include="StoredProcedures\UnMask.sql" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Schemas\SchemasDefinitions.sql">
@@ -77,6 +89,14 @@
     <None Include="FTFCU.MaskDatabase.publish.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PrepopulatedData\MaskingLevelData.sql">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
   </ItemGroup>
   <PropertyGroup>
     <PreBuildEvent>
