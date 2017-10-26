@@ -84,6 +84,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <None Include="DAC\bin\en\ThirdPartyNoticesDacFramework.rtf" />
+    <None Include="DAC\bin\SqlPackage.exe.config" />
     <None Include="packages.config" />
     <None Include="publish.nuspec">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -102,6 +104,30 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="DAC\bin\1033\DacUnpackResources.dll" />
+    <Content Include="DAC\bin\DacUnpack.exe" />
+    <Content Include="DAC\bin\en\License_DACFx.txt" />
+    <Content Include="DAC\bin\Extensions\Microsoft.SqlServer.Services.ImportExport.DacFxExtensions.dll" />
+    <Content Include="DAC\bin\Extensions\Readme.txt" />
+    <Content Include="DAC\bin\Hyak.Common.dll" />
+    <Content Include="DAC\bin\Microsoft.Azure.Common.dll" />
+    <Content Include="DAC\bin\Microsoft.Azure.KeyVault.dll" />
+    <Content Include="DAC\bin\Microsoft.Data.Tools.Schema.Sql.dll" />
+    <Content Include="DAC\bin\Microsoft.Data.Tools.Utilities.dll" />
+    <Content Include="DAC\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.dll" />
+    <Content Include="DAC\bin\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Dac.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Dac.Extensions.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Dac.Extensions.xml" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Dac.xml" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.DacAzureExtensions.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.DacAzureExtensions.xml" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Management.AlwaysEncrypted.AzureKeyVaultProvider.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
+    <Content Include="DAC\bin\Microsoft.SqlServer.Types.dll" />
+    <Content Include="DAC\bin\Microsoft.Threading.Tasks.dll" />
+    <Content Include="DAC\bin\Newtonsoft.Json.dll" />
+    <Content Include="DAC\bin\SqlPackage.exe" />
     <Content Include="Microsoft.SqlServer.Dac.dll" />
     <Content Include="Microsoft.SqlServer.TransactSql.ScriptDom.dll" />
   </ItemGroup>
